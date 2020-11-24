@@ -340,7 +340,7 @@ i {
 }
 
 .loc:hover {
-    font-size: 1.5vw;
+    font-size: 1.5em;
 }
 
 @media screen and (max-width: 767px)
@@ -509,13 +509,14 @@ i {
         width: 100vw;
     }
 
-    .loc-hover {
-        font-size-adjust: none;
+    .loc:hover {
+        font-size: 0.6em;
     }
 
     .loc {
         font-size: 0.6em;
         margin: 0 auto;
+        
     }
 
     .loc-details {
